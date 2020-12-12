@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "moment": "^2.23.0",
     "vue": "^2.5.2",
     "element-ui": "^2.10.1",
-    "moment": "^2.23.0",
     "infra-vue-ui": "git+https://github.com/jiaweisoft/infra-vue-ui.git",
     "vue-router": "^3.0.1"
   },
@@ -33,7 +33,6 @@
     "copy-webpack-plugin": "^4.0.1",
     "crypto-js": "^3.1.9-1",
     "css-loader": "^0.28.0",
-    "element-ui": "^2.14.1",
     "eslint": "^4.17.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",

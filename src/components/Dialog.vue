@@ -8,9 +8,7 @@
     :center="isCenter"
   >
     <component v-bind:is="currentView" :model="form" v-if="isShow">
-      <!-- 组件在 vm.curren            tview dd变化时改变！ -->
-      <!-- 组件在 vm.curren            tview dd变化时改变！ -->
-      <!-- 组件在 vm.curren            tview dd变化时改变！ -->
+      <!-- 组件在 vm.currentview 变化时改变！ -->
     </component>
   </el-dialog>
 </template>

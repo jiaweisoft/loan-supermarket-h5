@@ -12,8 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        //target: 'https://test-loan-supermarket.ucredit.com/api',
-        target: 'http://localhost:8081',
+        target: 'https://test-loan-supermarket.ucredit.com/api',
         changeOrigin: true,
         pathRewrite: {"^/api" : "/"}
       }
